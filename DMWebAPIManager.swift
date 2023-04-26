@@ -8,8 +8,6 @@ enum ApiMethod :String{
     case GET
 }
 
-typealias apiCompletionV2 = (_ connected:Bool?) -> Void
-typealias passwordEncryptresponseAPI = (_ passValue:String?) -> Void
 typealias responseSwaggerAPI = (_ connected:Bool?,_ data:Data?,_ response:URLResponse?,_ error : Error?) -> Void
 typealias responseAPI = (_ isSucess:Bool?,_ data:Data?,_ error : Error?) -> Void
 
